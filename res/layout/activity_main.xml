@@ -1,0 +1,38 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ll"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="10px"
+    android:paddingLeft="10px"
+    android:paddingRight="10px"
+    android:paddingTop="10px"
+    tools:context=".MainActivity" >
+
+    <com.carbs.view.AutoNextLineViewGroup
+        android:id="@+id/auto_group"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#880099EE"
+        android:paddingBottom="20dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:paddingTop="20dp"
+        android:visibility="visible" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="AddView" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="AddButton" />
+
+</LinearLayout>
